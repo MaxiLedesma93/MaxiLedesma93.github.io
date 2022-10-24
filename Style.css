@@ -1,0 +1,63 @@
+
+.cabecera{
+    background-color: blue;
+    height: 250px;
+    width: 70%;
+    display: flex;
+    margin: 0px auto;
+}
+.cuerpo{
+    height: 100%;
+    width: 100%;
+    /*background-color: aqua;*/
+    display: flex;
+    flex-wrap: nowrap;
+    /*background-image: url(img/fondo2\ \(2\).jpg);
+    opacity: 0.9;
+    background-size: 900, 450;*/
+
+}
+.imagen{
+    height: 400px;
+    width: 400px;
+}
+.descripcion{
+    height: auto;
+    width: auto;
+    font-size: 27px;
+    
+
+}
+.descripcion1{
+    height: auto;
+    width: 33.3%;
+    font-size: 27px;
+
+}
+.divmenu{
+    height:500px;
+    width: 400px;
+    
+}
+.pie{
+    height: 200px;
+    width: 100%;
+
+}
+h1{
+    font: verdana, 45px;
+    color: rgb(106 36 169 / 89%);
+    
+}
+.pcab{
+    font-family: Impact;
+    color: rgb(51, 10, 88);
+    font-weight: 600;
+    width: 100%;
+    
+}
+body{
+    background-image: url(img/fondo2\ \(2\).jpg);
+    opacity: 0.9;
+    background-size: auto;
+}
