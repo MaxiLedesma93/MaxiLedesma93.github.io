@@ -24,14 +24,16 @@
 .descripcion{
     height: auto;
     width: auto;
-    font-size: 27px;
+    font-size: 22px;
     
 
 }
 .descripcion1{
     height: auto;
     width: 33.3%;
-    font-size: 27px;
+    font-size: 22px;
+    justify-content: space-around;
+    
 
 }
 .divmenu{
@@ -42,6 +44,10 @@
 .pie{
     height: 200px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
 
 }
 h1{
@@ -50,6 +56,7 @@ h1{
     
 }
 .pcab{
+    margin-left: 10px;
     font-family: Impact;
     color: rgb(51, 10, 88);
     font-weight: 600;
@@ -58,6 +65,29 @@ h1{
 }
 body{
     background-image: url(img/fondo2\ \(2\).jpg);
-    opacity: 0.9;
     background-size: auto;
+    overflow: auto;
 }
+.images{
+    src: url(/img/foto\ 1.jpg);
+    src: url(/img/foto\ 2.jpg);
+    src: url(/img/foto\ 3.jpg);
+
+}
+.listaLinks{
+    font-family: 'Lucida Sans';
+    text-decoration-line: underline;
+    font-size: 20px;
+    
+    align-self: center;
+    
+}
+.pFooters, pre{
+    height: 200px;
+    width: 33.3%;
+   /* background-color: aqua;**/
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
