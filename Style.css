@@ -1,10 +1,12 @@
 
 .cabecera{
+    
     background-color: blue;
     height: 250px;
-    width: 70%;
+    width: 50%;
     display: flex;
     margin: 0px auto;
+    flex-direction: row;
 }
 .cuerpo{
     height: 100%;
@@ -85,9 +87,14 @@ body{
 .pFooters, pre{
     height: 200px;
     width: 33.3%;
-   /* background-color: aqua;**/
     font-weight: bolder;
     font-size: 20px;
 
+}
+.formulario{
+
+}
+.imagenes{
+    width: 33%;
 }
 
