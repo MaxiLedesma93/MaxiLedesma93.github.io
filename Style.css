@@ -1,7 +1,7 @@
 
 .cabecera{
     
-    background-color: blue;
+    
     height: 250px;
     width: 50%;
     display: flex;
@@ -11,13 +11,11 @@
 .cuerpo{
     height: 100%;
     width: 100%;
-    /*background-color: aqua;*/
+    background-color: #ead6c2;
     display: flex;
     flex-wrap: nowrap;
-    /*background-image: url(img/fondo2\ \(2\).jpg);
-    opacity: 0.9;
-    background-size: 900, 450;*/
-
+    
+    
 }
 .imagen{
     height: 400px;
@@ -66,9 +64,10 @@ h1{
     
 }
 body{
-    background-image: url(img/fondo2\ \(2\).jpg);
+    /*background-image: url(img/fondo2\ \(2\).jpg); */
     background-size: auto;
     overflow: auto;
+    background-color: beige;
 }
 .images{
     src: url(/img/foto\ 1.jpg);
@@ -93,6 +92,9 @@ body{
 }
 .formulario{
 
+}
+.imgPrinc{
+    margin-top: 20px;
 }
 .imagenes{
     width: 33%;
