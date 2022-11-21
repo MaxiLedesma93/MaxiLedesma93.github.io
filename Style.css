@@ -1,24 +1,25 @@
 
 .contenedorCarrusel{
     
-    
-    height: 250px;
-    width: 50%;
+    max-height: 250px; 
+    max-width: 50%;
+    min-height: 250px;
+    width: max-content;
+    min-width: 20%;
     margin: auto;
     display: flex;
+    overflow: hidden;
     background-color: rgb(7, 7, 7);
     flex-direction: row;
- 
     justify-content: center;
     box-shadow:0 0 0 10px rgb(223, 171, 171), 0  15px 50px;
-    overflow: hidden;
     position: relative;
     
 }
 .cuerpo{
     height: 100%;
     width: 100%;
-    background-color: #edadca;
+    background-color: #fbcece;
     display: flex;
     flex-wrap: nowrap;
     margin-top: 30px; 
@@ -88,8 +89,9 @@ h3{
 body{
     background-size: auto;
     overflow: auto;
-    background-color: rgb(237 237 198);
+    background-color: rgb(255 255 255);
     margin: 30px;
+    
     
    
 }
@@ -105,6 +107,7 @@ body{
     width: 33.3%;
     font-weight: bolder;
     font-size: 20px;
+    margin-top: 50px;
 
 }
 
