@@ -28,7 +28,6 @@ window.addEventListener('load', function(){
         let fotosurl= ["img/bff12ea928bef5c5a502f23e0ee2e6e1.jpg", "img/Fondant.jpg",
         "img/tortadeCasamiento.jpg", "img/Ganache.jpg"];
         let img = document.getElementById("imgCarrusel");
-
         img.src = fotosurl[indiceCarrusel];
         indiceCarrusel--;
 
