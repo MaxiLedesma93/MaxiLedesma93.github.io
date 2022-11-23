@@ -1,7 +1,7 @@
 
 let indiceCarrusel=0;
 function correCarru(){
-    varTemp= setInterval(carruDer, 1000);
+    varTemp= setInterval(carruDer, 3000);
     
 
 }
@@ -16,6 +16,7 @@ window.addEventListener('load', function(){
 
 
     function carruDer() {
+        clearInterval(varTemp);
         let fotosurl= ["img/bff12ea928bef5c5a502f23e0ee2e6e1.jpg", "img/Fondant.jpg",
         "img/tortadeCasamiento.jpg", "img/Ganache.jpg"];
         let img = document.getElementById("imgCarrusel");
@@ -29,9 +30,12 @@ window.addEventListener('load', function(){
             img.src = fotosurl[indiceCarrusel];
                
         }
+        correCarru();
+        
 
     };
     function carruIzq() {
+        clearInterval(varTemp);
         let fotosurl= ["img/bff12ea928bef5c5a502f23e0ee2e6e1.jpg", "img/Fondant.jpg",
         "img/tortadeCasamiento.jpg", "img/Ganache.jpg"];
         let img = document.getElementById("imgCarrusel");
@@ -45,6 +49,7 @@ window.addEventListener('load', function(){
             indiceCarrusel=fotosurl.length-1; 
             img.src = fotosurl[indiceCarrusel];
         }
+        correCarru();
 
     };
     
