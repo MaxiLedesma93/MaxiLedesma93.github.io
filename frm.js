@@ -30,6 +30,7 @@ function validar(){
         listaErrores.appendChild(item);
         msj.classList.add("errorCampo");
         flag=false;
+        
     }
     if(flag){
         
@@ -45,6 +46,7 @@ function validar(){
         item= document.createElement("li");
         item.innerHTML="Mensaje: "+ msj.value;
         listaEnviados.appendChild(item);
+        limpiar();
                     
                     
 
@@ -52,4 +54,13 @@ function validar(){
     
     return false;
 };
+function limpiar(){
+    let nombre= document.getElementById("nombre");
+    nombre.value="";
+    let mail= document.getElementById("mail");
+    mail.value="";
+    let msj= document.getElementById("msj");
+    msj.value="";
+
+}
     
