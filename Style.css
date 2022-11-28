@@ -92,7 +92,8 @@ h2{
 body{
     background-size: auto;
     overflow: auto;
-    background-color: rgb(255 255 255);
+    /*background-color: rgb(255 255 255);*/
+    background-image:url(img/fondo2.jpg);
     margin: 30px;
     
 }
@@ -143,9 +144,7 @@ li{
 .cuerpoTortas{
     display: flex;
     display: block;
-    
-    background-color: rgb(250, 250, 250);
-    margin: 30px;
+    background-image:url(img/fondo2.jpg) ;
     max-width: 70%;
     margin: auto;
     justify-content: center;
@@ -168,14 +167,58 @@ li{
 }
 
 .imgTortas{
-    
+    margin-top: 15px;
+    margin-left: 15px;
     height: 400px;
     width: 600px;
     
 }
 .relleno{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
     width:100%;
     height: 200px ;
+    
+    
+}
+.formContenedor{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+#formContacto{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: aqua;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+
+
+}
+#nombre{
+    width: 30%;
+}
+#mail{
+    width: 30%;
+}
+label{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+textarea{
+    width: 30%;
+    resize: none;
+}
+.h1Form{
+    font-size: 50px;
 }
 
 

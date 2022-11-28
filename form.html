@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head> <title>Contactenos</title>
-        <link rel="" href="">
+        <link rel="stylesheet" href="Style.css">
+        <script src="frm.js"></script>
+        
 
     </head>
     <body>
-        <form >
-            <ul>
-             <li>
-               <label for="nombre">Nombre:</label>
-               <input  id="name" name="nombreUsuario">
-             </li>
-             <li>
-               <label for="mail">Correo electrónico:</label>
-               <input  id="mail" name="mailUsuario">
-             </li>
-             <li>
-               <label for="msg">Mensaje:</label>
-               <textarea id="mje" name="mjeUsuario"></textarea>
-             </li>
-            </ul>
+      <div class="relleno">
+        <h1 class="h1Form" >Formulario de Contacto.</h1>
+      </div>
+      <div class="formContenedor">
+        <form id="formContacto" onsubmit="return validar()" >
+               <label for="nombre">Nombre:</label> 
+               <input  id="nombre" name="nombre"> 
+               <label for="mail">Correo electrónico:</label> 
+               <input  id="mail" name="mail"> 
+               <label for="msj">Mensaje:</label> 
+               <textarea placeholder="maximo 200 caracteres." id="msj" name="msj" rows="5"></textarea>
+               <input type="submit" value="Enviar">
+               <ul id="listaErrores" >  </ul> 
+               <ul id="listaEnviados" > </ul>
            </form>
+      </div>
     </body>
+    <footer class="pie">
+      <p class="pFooters" style="text-align: right ;">
+          
+          <img src="img/logo.jpg" alt="logo" >
+
+      </p>
+     
+      
+      <pre>
+          Direccion: Av julio roca        
+                                             
+          San Luis, San Luis. CP: 5700.  
+      </pre> 
+       <pre>
+      <a href="">Trabaja con nosotros.</a>
+
+      <a href="form.html">Contactenos.</a>
+
+      <a href="">Sugerencias.</a>
+       </pre>
+  </footer>
 </html>
 
